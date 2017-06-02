@@ -56,7 +56,7 @@ void ADC_ads8689::transmit(uint8_t command, uint16_t address, uint16_t data)
 
 /*
   Pop a value off of the top of the buffer.
-  Buffer acts as a stack, FIFO.
+  Buffer acts as a stack.
 */
 uint32_t ADC_ads8689::readBuffer(void)
 {
